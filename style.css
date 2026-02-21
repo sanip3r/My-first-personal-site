@@ -1,0 +1,240 @@
+body{
+    background-color: #111111;
+}
+.comeco{
+    background-color: black;
+}
+
+
+.intro,.text{
+    font-family: "8bitbold";
+    color: azure;
+    text-align: center;
+}
+@font-face {
+    font-family: "8bitbold";
+    src: url('./fonts/8-bit_operator_/8-bit_Operator_/8bitOperatorPlus-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: '8bitregular';
+    src: url();
+}
+
+.big{
+    color: #ffaec9;
+    font-size: 5rem;
+    margin-top: 20px;
+}
+.bigshot{
+    color: #fff301;
+    font-size: 5rem;
+    margin-top: 20px;
+}
+.top{
+    padding-top: 100px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#logo{
+    height: 150px;
+    margin-bottom: 10px;
+}
+.spamton{
+    height: 70px;
+    transform: scaleX(-1);
+    justify-self: flex-end;
+    margin-top: 60px;
+}
+.spamton2{
+    height: 70px;
+    margin-top:60px ;
+    
+}.introd{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    line-height: 1.7;
+}
+
+.title{
+    margin:50px;
+}
+.secundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#textao{
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    
+}
+#caixa{
+    height: 200px;
+    width: 700px;
+}
+.tree{
+    margin-top: 30px;
+}
+
+
+.hab{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+    height: 600px;
+    width: 100%;
+    padding: 0;
+}
+.study{
+    order: -1;
+   grid-row: span 3;
+}
+#study{
+    height: 100%;
+    width: 80%;
+    float: right;
+}
+.acomp{
+    float: left;
+    height: 100px;
+    margin-top: 30px;
+}
+#steam{
+    margin-right: 20px;
+}
+#piano{
+    margin-right: 20px;
+}
+.setor3{
+    text-align: left;
+    line-height: 2;
+   
+}
+
+
+
+.skill{
+    grid-column: span 2;
+}
+.prime{
+    order: -2;
+}
+.habilidades{padding: 0;}
+
+
+
+
+.linha{
+    height: 10px;
+    border-bottom: 10px solid yellow;
+}
+#flor{
+    width: 100px;
+    position: relative;
+    bottom: 55px;
+    left: 45%;
+    z-index: 1;
+    margin-bottom: 30px;
+    display: block;
+}
+.fim{
+    background-color: black;
+    height: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.link{
+    text-align: center;
+    display: block;
+    height: 80px;
+}
+.cont{
+    text-decoration: none;
+    color: #fff301;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+footer{
+    color: aliceblue;
+    justify-self: flex-end;
+    
+}
+
+@media (max-width: 750px) {
+    .study{
+        display: none;
+    }
+    .skill{
+        grid-column: span 3;
+    }
+    .fim{
+        
+         position: relative;
+        top:350px;
+    }
+    .linha{
+        position: relative;
+        top:350px;
+    }
+    #yt{
+        display: block;
+    }
+    #flor{
+        left:40%
+
+    }
+
+    #caixa{
+        width: 100%;
+        height: 450px;
+        display: none;
+    }
+    #textao{
+        text-align: center;
+        margin: 0;
+        z-index: 0;
+        width: 100%;
+        height: 400px;
+        justify-content: center;
+        left: 0;
+        right: 0;
+    }
+    
+    #box{
+        
+        height: 350px;
+        display: block;
+    }
+    .secundo{
+        padding: 0;
+        justify-content: center;
+    }
+    .fle{
+        width: 100%;
+    }
+
+
+}
